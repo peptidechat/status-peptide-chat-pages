@@ -879,15 +879,14 @@ p {
 
 .product-pair figure {
   min-width: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .product-pair img {
   width: 100%;
-  aspect-ratio: 1.42;
+  height: auto;
   border: 1px solid rgba(7, 8, 9, 0.24);
-  object-fit: cover;
-  object-position: top left;
+  background: var(--ink);
   box-shadow: 0 24px 64px rgba(7, 8, 9, 0.18);
 }
 
@@ -1347,10 +1346,6 @@ summary:focus-visible {
     gap: 50px;
   }
 
-  .product-pair img {
-    aspect-ratio: 1.55;
-  }
-
   .footer-top {
     grid-template-columns: 1fr auto;
   }
@@ -1604,10 +1599,6 @@ summary:focus-visible {
 
   .product-pair {
     gap: 28px;
-  }
-
-  .product-pair img {
-    aspect-ratio: 1.25;
   }
 
   .product-pair figcaption {
