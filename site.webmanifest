@@ -1,0 +1,16 @@
+{
+  "name": "TitrateLab on Peptide.chat",
+  "short_name": "TitrateLab",
+  "description": "Research peptide vendor reviews, rankings and third-party lab evidence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090a",
+  "theme_color": "#08090a",
+  "icons": [
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
